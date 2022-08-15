@@ -5,6 +5,7 @@
   License: https://bootstrapmade.com/license/
 */
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -47,6 +48,7 @@ h6 {
     padding: 0;
 }
 
+
 /* Back to top button */
 
 .back-to-top {
@@ -70,6 +72,7 @@ h6 {
     padding-top: 12px;
     color: #fff;
 }
+
 
 /* Prelaoder */
 
@@ -103,7 +106,6 @@ h6 {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -115,12 +117,12 @@ h6 {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
+
 
 /*--------------------------------------------------------------
 # Header
@@ -170,6 +172,7 @@ h6 {
     margin: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -182,25 +185,25 @@ h6 {
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%)
 }
 
-#logo-img{
+#logo-img {
     width: 140px;
-    position: relative; 
+    position: relative;
     top: -30px;
 }
 
-@media(max-width: 770px){
-    #logo-img{
-        position: relative;
-        transform: translateY(25px) scaleY(1.5);
-    }
-}
-@media(max-width: 500px){
-    #logo-img{
+@media(max-width: 770px) {
+    #logo-img {
         position: relative;
         transform: translateY(25px) scaleY(1.5);
     }
 }
 
+@media(max-width: 500px) {
+    #logo-img {
+        position: relative;
+        transform: translateY(25px) scaleY(1.5);
+    }
+}
 
 #intro .carousel-item {
     width: 100%;
@@ -328,9 +331,11 @@ h6 {
     color: #18d26e;
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 
 /* Nav Menu Essentials */
 
@@ -372,6 +377,7 @@ h6 {
     min-width: 180px;
 }
 
+
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
@@ -391,12 +397,14 @@ h6 {
     content: "\f105";
 }
 
+
 /* Nav Meu Container */
 
 #nav-menu-container {
     float: right;
     margin: 0;
 }
+
 
 /* Nav Meu Styling */
 
@@ -449,6 +457,7 @@ h6 {
     margin: 0;
 }
 
+
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
@@ -469,6 +478,7 @@ h6 {
 #mobile-nav-toggle i {
     color: #fff;
 }
+
 
 /* Mobile Nav Styling */
 
@@ -554,6 +564,7 @@ h6 {
     display: none;
 }
 
+
 /* Mobile Nav body classes */
 
 body.mobile-nav-active {
@@ -568,16 +579,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+
 
 /* Sections Header
 --------------------------------*/
 
 .section-header h3 {
-    font-size: 32px;
-    color: #111;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
@@ -678,11 +691,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     left: calc(50% - 50px);
 }
 
+
 /* Section with background
 --------------------------------*/
+
 .section-bg {
     background: #f7f7f7;
 }
+
 
 /* About Section
 --------------------------------*/
@@ -696,7 +712,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     z-index: 10;
 }
-.about-col{
+
+.about-col {
     text-align: justify;
 }
 
@@ -785,40 +802,43 @@ body.mobile-nav-active #mobile-nav-toggle {
         clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
         padding: 50px 10px;
     }
-
     .about-col-clip2 {
         clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
         padding: 50px 10px;
     }
 }
 
+
 /* Clubs Section
 --------------------------------*/
 
-#clubs{
+#clubs {
     width: 100%;
     background: linear-gradient(112.15334473777807deg, rgba(249, 63, 72, 1) 5.533854166666667%, rgba(250, 183, 121, 1) 96.67968749999999%);
 }
 
-#clubs .col-content-text{
+#clubs .col-content-text {
     margin: 0;
     padding: 0;
-    font-family: sans-serif; 
+    font-family: sans-serif;
     height: 600px;
 }
-.row-clubs{
+
+.row-clubs {
     padding: 25px 0;
 }
-.box{
+
+.box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
 }
-.box:before{
+
+.box:before {
     content: "";
     position: absolute;
     top: 0;
@@ -830,7 +850,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-right: 20px solid #fff;
     box-sizing: border-box;
 }
-.box:after{
+
+.box:after {
     content: "";
     position: absolute;
     top: 0;
@@ -842,7 +863,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 20px solid #fff;
     box-sizing: border-box;
 }
-.text{
+
+.text {
     position: absolute;
     top: 30px;
     left: -30px;
@@ -850,7 +872,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: calc(100% + 60px);
     height: calc(100% - 60px);
 }
-.text div{
+
+.text div {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -860,45 +883,51 @@ body.mobile-nav-active #mobile-nav-toggle {
     box-sizing: border-box;
     text-align: center;
 }
-.text div h1{
+
+.text div h1 {
     margin: 0 0 20px;
     padding: 0;
     color: #fff;
 }
-.text div p{
+
+.text div p {
     margin: 0 0 20px;
     padding: 0;
     color: #fff;
     font-size: 15px;
     text-align: justify;
 }
-@media(max-width: 1000px){
-    #clubs .col-content-text{
+
+@media(max-width: 1000px) {
+    #clubs .col-content-text {
         height: 600px;
     }
-    .box{
+    .box {
         width: 80%;
         height: 100%;
     }
-    .text div p{
+    .text div p {
         font-size: 12px;
     }
-    .text div h1{
+    .text div h1 {
         font-size: 16px;
     }
-    .col-content-text{
+    .col-content-text {
         width: 100%;
     }
 }
-@media(max-width: 500px){
-    .box{
+
+@media(max-width: 500px) {
+    .box {
         width: 75%;
         height: 100%;
     }
 }
 
+
 /*  ******   */
-#clubs .col-content-images{
+
+#clubs .col-content-images {
     width: 100%;
     height: 500px;
     position: relative;
@@ -908,6 +937,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     transition: all 1s;
 }
+
 #clubs .composition__photo {
     width: 40%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
@@ -934,7 +964,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media(max-width:1000px) {
-    .col-content-images{
+    .col-content-images {
         display: none;
     }
     .composition__photo {
@@ -953,42 +983,43 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(0.95);
 }
 
+
 /* Events Section */
 
 #events {
     background: #fff;
     padding: 60px 0;
-  }
-  
-  #events .events-container .background {
+}
+
+#events .events-container .background {
     margin: 20px 0;
-  }
-  
-  #events .events-container .content {
+}
+
+#events .events-container .content {
     background: #fff;
-  }
-  
-  #events .events-container .title {
+}
+
+#events .events-container .title {
     color: #333;
     font-weight: 700;
     font-size: 32px;
-  }
-  
-  #events .events-container p {
+}
+
+#events .events-container p {
     line-height: 26px;
-  }
-  
-  #events .events-container p:last-child {
+}
+
+#events .events-container p:last-child {
     margin-bottom: 0;
-  }
-  
-  #events .events-container .icon-box {
+}
+
+#events .events-container .icon-box {
     background: #fff;
     background-size: cover;
     padding: 0 0 30px 0;
-  }
-  
-  #events .events-container .icon-box .icon {
+}
+
+#events .events-container .icon-box .icon {
     float: left;
     background: #fff;
     width: 64px;
@@ -1014,58 +1045,60 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 50%;
     border: 2px solid #007bff;
     transition: all 0.3s ease-in-out;
-  }
-  
-  #events .events-container .icon-box .icon i {
+}
+
+#events .events-container .icon-box .icon i {
     color: #007bff;
     font-size: 24px;
-  }
-  
-  #events .events-container .icon-box:hover .icon {
+}
+
+#events .events-container .icon-box:hover .icon {
     background: #007bff;
-  }
-  
-  #events .events-container .icon-box:hover .icon i {
+}
+
+#events .events-container .icon-box:hover .icon i {
     color: #fff;
-  }
-  
-  #events .events-container .icon-box .title {
+}
+
+#events .events-container .icon-box .title {
     margin-left: 80px;
     font-weight: 600;
     margin-bottom: 5px;
     font-size: 18px;
-  }
-  
-  #events .events-container .icon-box .title a {
+}
+
+#events .events-container .icon-box .title a {
     color: #283d50;
-  }
-  
-  #events .events-container .icon-box .description {
+}
+
+#events .events-container .icon-box .description {
     margin-left: 80px;
     line-height: 24px;
     font-size: 14px;
-  }
-  
-  #events .events-extra {
+}
+
+#events .events-extra {
     padding-top: 60px;
-    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
-  }
-  
-  #events .events-extra h4 {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, .5);
+}
+
+#events .events-extra h4 {
     font-weight: 600;
     font-size: 24px;
-  }
-  #events .shadow{
-    -webkit-box-shadow: 10px 3px 17px -5px rgba(0,0,0,0.62);
-    -moz-box-shadow: 10px 3px 17px -5px rgba(0,0,0,0.62);
-    box-shadow: 10px 3px 17px -5px rgba(0,0,0,0.62);
-  }
+}
 
-  @media(max-width: 500px){
+#events .shadow {
+    -webkit-box-shadow: 10px 3px 17px -5px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 10px 3px 17px -5px rgba(0, 0, 0, 0.62);
+    box-shadow: 10px 3px 17px -5px rgba(0, 0, 0, 0.62);
+}
+
+@media(max-width: 500px) {
     #events {
         padding: 60px 20px;
-      }
-  }
+    }
+}
+
 
 /* Gallery Section
 --------------------------------*/
@@ -1151,7 +1184,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.2s linear;
 }
 
-#gallery .gallery-item figure .link-preview i{
+#gallery .gallery-item figure .link-preview i {
     padding-top: 6px;
     font-size: 22px;
     color: #333;
@@ -1202,9 +1235,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: uppercase;
 }
 
+
 /* Team Section
 --------------------------------*/
-
 
 #team {
     padding: 0;
@@ -1215,11 +1248,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0;
 }
 
-#team .row{
+#team .row {
     margin: 0;
     padding: 0;
 }
-#team .row .col-md-4{
+
+#team .row .col-md-4 {
     margin: 0;
     padding: 0;
 }
@@ -1228,7 +1262,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     overflow: hidden;
     margin: 50px;
-}   
+}
 
 .profile-card .profile-img img {
     width: 100%;
@@ -1273,12 +1307,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: 20px;
 }
 
-@media(max-width: 400px){
+@media(max-width: 400px) {
     .profile-card:hover .profile-content:before {
         top: 5px;
         left: 5px;
     }
-    
     .profile-card:hover .profile-content:after {
         bottom: 5px;
         right: 5px;
@@ -1347,7 +1380,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: capitalize;
 }
 
-@media(max-width: 400px){
+@media(max-width: 400px) {
     .profile-card .profile-content .title {
         font-size: 12px;
     }
@@ -1391,20 +1424,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     z-index: 1000;
 }
 
+
 /* tab controllers */
-.panel{
+
+.panel {
     display: none;
 }
-.panel.active{
+
+.panel.active {
     display: block;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
 }
-.nav button{
+
+.nav button {
     transform: skewX(-30deg);
     padding: 10px;
     margin: 5px 5px;
@@ -1413,21 +1451,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: rgb(41, 41, 41);
     color: #fff;
     font-weight: bold;
-    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
     transition: .3s;
 }
-.nav button:hover{
+
+.nav button:hover {
     transform: skewX(-25deg);
     background: #009f00;
-    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .8);
 }
-.nav button.active{
+
+.nav button.active {
     background: #009f00;
     box-shadow: 0 5px 15px #fff;
 }
 
+
 /* Accordian */
+
+
 /* Style the buttons that are used to open and close the accordion panel */
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -1438,43 +1482,51 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: none;
     outline: none;
     transition: 0.4s;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
     background-color: #ccc;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
     padding: 1%;
     background-color: white;
     display: none;
     overflow: hidden;
-    width:80vw;
+    width: 80vw;
     max-height: 0;
     transition: max-height 0.3s ease-out;
-  }
-  
-  .faq
-  {
+}
+
+.faq {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin:10%;
-  }
+    margin: 10%;
+}
 
-  .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
     margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1500,42 +1552,34 @@ body.mobile-nav-active #mobile-nav-toggle {
     #header #logo {
         padding-left: 60px;
     }
-
     #intro p {
         width: 60%;
     }
-
     #intro .carousel-control-prev,
     #intro .carousel-control-next {
         width: 5%;
     }
-
     #nav-menu-container {
         padding-right: 60px;
-    }   
+    }
 }
 
 @media (max-width: 768px) {
     .back-to-top {
         bottom: 15px;
     }
-
     #header #logo h1 {
         font-size: 28px;
     }
-
     #header #logo img {
         max-height: 50px;
     }
-
     #intro h2 {
         font-size: 28px;
     }
-
     #nav-menu-container {
         display: none;
     }
-
     #mobile-nav-toggle {
         display: inline;
     }
